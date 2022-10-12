@@ -2,12 +2,8 @@
 ## Submitted by Parul Shah
 
 ## INTRODUCTION
-Bike Sharing Assignment tends to identify the factors affecting the demand for these shared bikes in the American market
+Bike Sharing Assignment trys to identify the factors affecting the demand for these shared bikes in the American market.
 
-Table of Contents
-
-
-Acknowledgements
 
 ## Table of Contents
 * Problem statement and Goal
@@ -31,7 +27,7 @@ The model was trained using two approaches:
 2. adding all variables to start with and then drop them one at a time based on VIF and p-values
 
 Model performance was analyzed based on R2, adjusted R2 and F Statistics.
-Residual analysis and assumtions verification was also done.
+Residual analysis and assumptions verification was also done.
 Hypothesis testing too was conducted.
 
 ## Summary of Analysis
@@ -62,6 +58,22 @@ Interpretation of Coefficients (in decreasing order of significance):
 10. weathersit_2: A coefficient value of ‘-0.074807’ indicates that a unit increase in Weathersit2 variable, decreases the bike hire numbers by 0.074807 units (~7.4% reduction in count)
 
 11. const: The Constant value of ‘0.084143’ indicates that in the absence of all other predictor variables (i.e. when x1,x2...xn =0), The bike rental can still increase by 0.084143 units (~8.4% rise in count)
+
+After going through all analysis and evaluation, we can conclude the following:
+
+### Bike demand is impacted positively with below variables:
+
+1. yr - As it is a new concept, after initial low demand, year on year there seems to be an increase in it's popularity and demand and hence we can fairly assume higher demands in coming year
+2. temp - count increases with slight higher temperature. So may be the conceppt should be launched in cities which has acceptable temperature throughout the year or at least most art of te year 
+3. Bike Demand is slightly higher in Month of September compared to other months. Also, overall demand is good from May to October. So in these months (or we can also say for summer and fall), may be more bikes can be offered during these period 
+4. Similarly, demand is higher on working day compared to holidays
+
+### Bike Demand is impacted negatively with below variables:
+
+1. Bike Demand is less during high wind speed
+2. Bike Demand is less in Spring: This does not sound ok logically and we may be seeing suc trend due to not-so-good Dataset 
+3. Bike Demand is less in Misty and Wet weather conditions basically about to rain or rainy sessions
+
 
 ## Technologies Used
 * Anaconda3 
