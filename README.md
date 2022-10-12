@@ -1,5 +1,5 @@
 # Bike Sharing Assignment
-# submitted by Parul Shah
+## Submitted by Parul Shah
 
 ## INTRODUCTION
 Bike Sharing Assignment tends to identify the factors affecting the demand for these shared bikes in the American market
