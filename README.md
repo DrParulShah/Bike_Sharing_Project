@@ -10,10 +10,10 @@ Table of Contents
 Acknowledgements
 
 ## Table of Contents
-* [Problem statement and Goal]
-* [Overview of Data Analysis Approach]
-* [Summary of Analysis]
-* [Acknowledgements]
+* Problem statement and Goal
+* Overview of Data Analysis Approach
+* Summary of Analysis
+* Acknowledgements
 
 
 ## Problem statement and Goal
@@ -26,8 +26,8 @@ Dataset : day.csv
 
 ## Overview of Data Analysis Approach
 The model was trained using two approaches:
-1. RFE as well 
-2. as by adding all variables to start with and then drop them one at a time based on VIF and p-values
+1. varaible selection using RFE + manual dropping of variables based on p-value and VIF
+2. adding all variables to start with and then drop them one at a time based on VIF and p-values
 
 Model performance was analyzed based on R2, adjusted R2 and F Statistics.
 Residual analysis and assumtions verification was also done.
@@ -63,8 +63,10 @@ Interpretation of Coefficients (in decreasing order of significance):
 11. const: The Constant value of ‘0.084143’ indicates that in the absence of all other predictor variables (i.e. when x1,x2...xn =0), The bike rental can still increase by 0.084143 units (~8.4% rise in count)
 
 ## Technologies Used
-Anaconda3 jupyter Notebook
-python 3.9
+* Anaconda3 
+* jupyter 
+* Notebook
+* python 3.9
 
 ## Acknowledgements
 Thanks to Upgrad Instructors and Live Sessions
