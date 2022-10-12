@@ -65,8 +65,7 @@ Interpretation of Coefficients (in decreasing order of significance):
 
 ## Technologies Used
 * Anaconda3 
-* jupyter 
-* Notebook
+* jupyter Notebook
 * python 3.9
 
 ## Acknowledgements
